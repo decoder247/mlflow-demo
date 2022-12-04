@@ -1,1 +1,1 @@
-# mlflow-toy
+# mlflow-demo
