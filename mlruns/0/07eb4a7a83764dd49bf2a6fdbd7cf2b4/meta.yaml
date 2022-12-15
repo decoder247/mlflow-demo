@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/iliono/My%20Drive/Homefiles/repos-mac/mlflow-demo/mlruns/0/07eb4a7a83764dd49bf2a6fdbd7cf2b4/artifacts
+end_time: 1670196396124
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 07eb4a7a83764dd49bf2a6fdbd7cf2b4
+run_name: big-ape-719
+run_uuid: 07eb4a7a83764dd49bf2a6fdbd7cf2b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670196394491
+status: 3
+tags: []
+user_id: iliono
