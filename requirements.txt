@@ -1,2 +1,4 @@
-mlflow  # Includes scikit-learn
+mlflow[extras]     # replace with mlflow[extras] to install scikit-learn as well
+
+# vscode
 black
