@@ -1,4 +1,7 @@
 mlflow[extras]     # Installs scikit-learn
 
+# local utils package
+--editable "../python-utils.[dev]"
+
 # vscode
 black
