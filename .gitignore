@@ -14,5 +14,10 @@ __pycache__/
 venv/
 .venv
 
-# Python - MLrun
+# Python - mlflow
 mlruns/
+mlartifacts/
+
+# Python - local outputs
+local/
+.local/
