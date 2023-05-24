@@ -15,7 +15,10 @@ mlflow_cmd_2='mlflow server \
 	--serve-artifacts'
 
 py-setup:
-	@bash ./scripts/python/setup_env.sh
+	@python3 -m venv venv && \
+		source venv/bin/activate && \
+		pip install --upgrade pip && \
+		pip install -r requirements.txt
 
 py-install:
 	@. venv/bin/activate && \
