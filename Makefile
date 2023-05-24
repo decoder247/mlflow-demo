@@ -24,7 +24,7 @@ py-install:
 	@. venv/bin/activate && \
 		pip install -r requirements.txt
 
-py-clean: # # Cleanup build files created by python
+py-clean: # Cleanup build files created by python
 	@source venv/bin/activate && \
 		python -um dc2_python_utils.python_utils_general.utils_setuptools -m clean
 
