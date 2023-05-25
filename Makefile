@@ -54,7 +54,9 @@ mlflow-dev-stop:
 
 nb:
 	@tmux new -d -s $(tmux_dev_nb_session)
-	@tmux send-keys -t $(tmux_dev_nb_session).0 "source venv/bin/activate && jupyter-notebook" ENTER
+	@tmux send-keys -t $(tmux_dev_nb_session).0 "source venv/bin/activate" ENTER
+	@tmux send-keys -t $(tmux_dev_nb_session).0 "jt -t onedork" ENTER
+	@tmux send-keys -t $(tmux_dev_nb_session).0 "jupyter-notebook" ENTER
 
 nb-stop:
 	@echo "Sending stop signal (ctrl+c) to nb session" && \

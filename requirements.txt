@@ -5,6 +5,7 @@ mlflow[extras]     # Installs scikit-learn
 
 # dev
 notebook
+jupyterthemes
 
 # vscode
 black
