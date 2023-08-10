@@ -3,6 +3,7 @@
 ## Table of contents
 
 - [Table of contents](#table-of-contents)
+- [Project requirements](#project-requirements)
 - [How to run](#how-to-run)
 
 Taken from: <https://www.mlflow.org/docs/latest/tutorials-and-examples/tutorial.html>
@@ -10,6 +11,12 @@ Taken from: <https://www.mlflow.org/docs/latest/tutorials-and-examples/tutorial.
 Other examples
 
 - <https://mlflow.org/docs/latest/quickstart.html>
+
+## Project requirements
+
+- [ ] Have a UI for tracking experiments
+- [ ] Artifacts of the example pipeline is properly stored
+- [ ] Serving of endpoint and deployment method of mlflow?
 
 ## How to run
 
