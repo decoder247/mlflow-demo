@@ -4,6 +4,7 @@
 
 - [Table of contents](#table-of-contents)
 - [Project requirements](#project-requirements)
+- [Mlflow components](#mlflow-components)
 - [How to run](#how-to-run)
 
 Taken from: <https://www.mlflow.org/docs/latest/tutorials-and-examples/tutorial.html>
@@ -17,6 +18,14 @@ Other examples
 - [ ] Have a UI for tracking experiments
 - [ ] Artifacts of the example pipeline is properly stored
 - [ ] Serving of endpoint and deployment method of mlflow?
+
+## Mlflow components
+
+Ref: <https://www.mlflow.org/docs/latest/what-is-mlflow.html>
+
+1. Tracking
+   1. Server with UI
+2. sss
 
 ## How to run
 
